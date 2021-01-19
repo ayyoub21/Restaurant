@@ -22,7 +22,7 @@
                 font-size: 2.5rem;
                 color:white;}
 .item-tekst p{font-family:cursive;
-                font-size: 1.15rem;}
+                font-size: 1.20rem;}
 
     .item-hamburger{position: absolute;right: 5vw;top: 8vh}
     .item-hamburger{line-height: 4px;}
@@ -65,7 +65,7 @@
     li{background-color: red;
 }
 
-body{background-color:black;}
+body{background-image: url("../img/mexicaans restaurant.jpg" )}
                 
 .item-logo img{
     height: 100px;
@@ -73,15 +73,3 @@ body{background-color:black;}
     position: absolute;
     left: 3vw;top: 6vh
 }
-
-.item-cirkle{
-    height: 750px;
-    width: 750px;
-    -webkit-border-radius: 500px;
-     -moz-border-radius: 500px; 
-     border-radius: 500px;
-    background-color:#15088b}
-
-.item-cirkle{margin-left: 25vw;
-     margin-top:20vh; 
-     position:absolute;}        
