@@ -95,10 +95,16 @@ div.gallerij {
 
 .overons{
     font-size: 15pt;
-    width: 500px;
+    width: 800px;
     position: absolute;
     top: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     left: 37vw;
-    color: white;
+    grid-gap: 3%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text{
+    font-size: 10pt;
 }
