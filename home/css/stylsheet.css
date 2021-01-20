@@ -5,24 +5,24 @@
     padding: 0px;
     }
 
-    .item-tekst1{margin-left:38.5vw;
-        margin-top:8vh;
-        position: absolute;color:white;font-size: 3rem;}
+    .item-tekst1{left:15vw;
+        top:35vh;
+        position: absolute;color:black;font-size: 3rem;background-color:white;opacity: 0.69;}
 
-.item-tekst{margin-left:8vw;
-            margin-top:63vh;
-            position: absolute;}
+.item-tekst{left:7vw;
+            top:49vh;
+            position: absolute;color:black;;background-color:white;opacity: 0.69;}
 
-.item-foto{margin-left: 50vw;
-            margin-top:45vh;
+.item-foto img{right: 0.5vw;
+            top:30vh;
             position: absolute;;}
-.item-foto img{height:50vh; width: 40vw;}
+.item-foto img{height:50vh; width: 42vw;}
 
 .item-tekst h1{font-family:cursive;
                 font-size: 2.5rem;
-                color:white;}
+                color:black;}
 .item-tekst p{font-family:cursive;
-                font-size: 1.15rem;}
+              font-size: 1.4rem;color:black}
 
     .item-hamburger{position: absolute;right: 5vw;top: 8vh}
     .item-hamburger{line-height: 4px;}
@@ -42,10 +42,11 @@
     }
     
     #item-navigeren{position: fixed;
-        top: 10vh;
-        left: 20vw}
+        top: 5vh;
+        left: 20vw;
+        opacity: 0.55;}
     #item-navigeren li{float: left;
-        padding: 2vw 2vh;}
+        padding: 4vw 4vh;}
     #item-navigeren a{
         font-size: 0,5rem}
     #item-navigeren a:active, a:visited, a:link 
@@ -65,7 +66,10 @@
     li{background-color: red;
 }
 
-body{background-color:black;}
+body{background-image: url("../img/mexicaans restaurant.jpg" )}
+body {background-repeat: no-repeat }
+body {background-size: cover}
+
                 
 .item-logo img{
     height: 100px;
@@ -73,15 +77,3 @@ body{background-color:black;}
     position: absolute;
     left: 3vw;top: 6vh
 }
-
-.item-cirkle{
-    height: 750px;
-    width: 750px;
-    -webkit-border-radius: 500px;
-     -moz-border-radius: 500px; 
-     border-radius: 500px;
-    background-color:#15088b}
-
-.item-cirkle{margin-left: 25vw;
-     margin-top:20vh; 
-     position:absolute;}        
