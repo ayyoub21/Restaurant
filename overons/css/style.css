@@ -30,7 +30,7 @@
     display: none; }
     
     header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color :red; }
+        color :rgb(0, 0, 0); }
     
     ul{color:white;font-size:24px}
     
@@ -105,13 +105,13 @@ div.gallerij {
     top: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    left: 37vw;
+    left: 17vw;
     grid-gap: 3%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text{
-    font-size: 10pt;
+    font-size: 15pt;
 }
 
 div.item-social{top:850px;position: relative;}
@@ -124,3 +124,4 @@ div.item-social li{float: right;
                     text-decoration:none;
                     margin-right:7vw;  
                     }
+p.text{background-color: rgba(255, 255, 255, 0.5); padding: 3vw;}
