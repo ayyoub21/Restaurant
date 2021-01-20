@@ -22,7 +22,7 @@
                 font-size: 2.5rem;
                 color:black;}
 .item-tekst p{font-family:cursive;
-                font-size: 1.4rem;color:black}
+              font-size: 1.4rem;color:black}
 
     .item-hamburger{position: absolute;right: 5vw;top: 8vh}
     .item-hamburger{line-height: 4px;}
