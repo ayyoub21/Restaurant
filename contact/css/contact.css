@@ -1,57 +1,56 @@
 @charset "utf-8";
-
+ 
 *{
     margin:0px;
     padding: 0px;
     }
-
+ 
   .item-tekst {
-	  position: absolute; 
+      position: absolute; 
       color: white;
-	  top:25vh;
-	  left:25vw;
-	  background: red;
+      top:25vh;
+      left:20vw;
       text-align: center;
       margin:auto;
       font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	  	
+        
 }
-
+ 
    
         
-.item-hamburger{position: absolute;right: 5vw;top: 8vh}
-.item-hamburger{line-height: 4px;}
-
-summary::-webkit-details-marker {
-display: none; }
-
-header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    color :red; }
-
-ul{color:white;font-size:24px}
-
-#item-navigeren a{ 
-font-size:1.5rem;
-    text-decoration:none;
-    margin-right:7vw;
+     .item-hamburger{position: absolute;right: 5vw;top: 8vh}
+    .item-hamburger{line-height: 4px;}
     
-}
-
-#item-navigeren{position: fixed;
-    top: 5vh;
-    left: 10vw; 
+    summary::-webkit-details-marker {
+    display: none; }
+    
+    header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color :red; }
+    
+    ul{color:white;font-size:24px}
+    
+   #item-navigeren a{ 
+    font-size:1.5rem;
+        text-decoration:none;
+        margin-right:7vw;
+        
     }
-#item-navigeren li{float: left;
-    padding: 4vw 4vh;list-style:none;
-    background-color:rgba(255, 0, 0, 0.377);}
-#item-navigeren a{
-    font-size: 0,5rem}
-#item-navigeren a:active, a:visited, a:link 
-    {color: white;
-    } 
-#item-navigeren a:hover 
-{color: darkgreen;}
-
+    
+    #item-navigeren{position: fixed;
+        top: 5vh;
+        left: 10vw; 
+        }
+    #item-navigeren li{float: left;
+        padding: 4vw 4vh;list-style:none;
+        background-color:rgba(255, 0, 0, 0.377);}
+    #item-navigeren a{
+        font-size: 0,5rem}
+    #item-navigeren a:active, a:visited, a:link 
+        {color: white;
+        } 
+    #item-navigeren a:hover 
+    {color: darkgreen;}
+ 
     p {
             font-size:18px;
             font-weight:normal;
@@ -60,7 +59,7 @@ font-size:1.5rem;
             color: white;
            }
 h1{
-	font-size: 50px;
+    font-size: 50px;
 }
     li{background-color: red;
 }
@@ -71,12 +70,44 @@ h1{
     position: fixed;
     left: 3vw;top: 6vh
 }
-
-body{background-image:url(../img/mexicaans\ restaurant.jpg)}
+ 
+body{background-image:url("../img/mexicaans\ restaurant.jpg")}
 body {background-repeat: no-repeat }
 body {background-size: cover}
+ 
+body {
+    font-size: 1.2rem;
+    width: 100vw;
+        }
+        
+     
+    table, form, header {
+    width: 60vw;
+    margin: auto;
+        }
+     
+    td {
+    padding: 0,2vh;
+        }
+     
+    input {
+    width: 30vw;
+    height: 5vh;
+    font-size: 1rem;
+    border: 0,5px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    text-align: center;
+        }
+     
+    .item-button {
+    width: 15vw;
+    background-color:white;
+    color: black;
+        }
 
-div.item-social{top:850px;position: relative;}
+        div.item-social{top:850px;position: relative;}
 div.item-social li{float: right;
     padding: 1vw 1vh;background-color:rgba(255, 0, 0, 0.425);font-size:0.5rem;list-style:none;}
 
