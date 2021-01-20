@@ -29,8 +29,8 @@
     summary::-webkit-details-marker {
     display: none; }
     
-    header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color :rgb(0, 0, 0); }
+    .item-hamburger p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color :rgb(255, 0, 0); }
     
     ul{color:white;font-size:24px}
     
@@ -61,14 +61,18 @@
             font-weight:normal;
             font-style:normal;
             line-height:18px;
-            color: white;
+            color:black;
            
     }
     li{background-color: red;
     
 }  
 
-
+.item-foto img{
+    right: 13vw;
+    top:52.5vh;
+    position: absolute;;
+height:45vh; width: 30vw;}
                 
 .item-logo img{
     height: 100px;
@@ -102,16 +106,16 @@ div.gallerij {
     font-size: 15pt;
     width: 800px;
     position: absolute;
-    top: 50vh;
+    top: 48vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    left: 17vw;
+    left: 22.5vw;
     grid-gap: 3%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:cursive;
 }
 
 .text{
-    font-size: 15pt;
+    font-size: 1.3rem;
 }
 
 div.item-social{top:850px;position: relative;}
@@ -124,4 +128,4 @@ div.item-social li{float: right;
                     text-decoration:none;
                     margin-right:7vw;  
                     }
-p.text{background-color: rgba(255, 255, 255, 0.5); padding: 3vw;}
+p.text{background-color: rgba(255, 255, 255, 0.5); padding: 4vw;}
