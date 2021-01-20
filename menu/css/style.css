@@ -1,3 +1,4 @@
+
     *{
         margin:0px;
         padding: 0px;
@@ -108,11 +109,11 @@
   }
 
     .menu{
-        width: 70%;
-        margin-left: 15%;
-        color: white;
+        width: 90%;
+        margin-left: 5%;
+        color: rgb(255, 255, 255);
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -131,6 +132,7 @@
 
     .price{
         margin: 3% 0;
+        color: red;
     }
 
     .foodimage img{
