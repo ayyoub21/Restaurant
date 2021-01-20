@@ -1,91 +1,101 @@
 @charset "utf-8";
 
-*{
-    margin:0px;
-    padding: 0px;
-    }
-    .item-tekst h1{position: absolute;
-    color: white;
-    top:17vh;
-    left:39vw;
-    font-size: 4rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin:3vh;
-    padding: 2vw ;
-    background-color: grey;
-    
+    *{
+        margin:0px;
+        padding: 0px;
     }
 
-    body{background-image:url(../images/mexicaans\ restaurant.jpg)}   
-    body {background-repeat: no-repeat }
-    body {background-size: cover}
+    .item-tekst h1{
+        margin-left: 46%;
+        width: fit-content;
+        color: white;
+        padding: 2%;
+        font-size: 4rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: grey;
+    }
 
-  
-   
+    body{
+        background-image:url(../images/mexicaans\ restaurant.jpg);
+        background-repeat: repeat;
+        background-size: contain;
+    }
         
-    .item-hamburger{position: absolute;right: 5vw;top: 8vh}
-    .item-hamburger{line-height: 4px;}
+    .item-hamburger{
+        float: right;
+        margin-top: -14%;
+    }
+
+    .item-hamburger p{
+        font-size: 10rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color :red;
+    }
     
     summary::-webkit-details-marker {
-    display: none; }
+        display: none; 
+    }
     
-    header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color :red; }
+    header p{
+        font-size: 10rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color :red;
+    }
     
-    ul{color:white;font-size:24px}
+    ul{
+        color:white;font-size:24px
+    }
     
    #item-navigeren a{ 
-    font-size:1.5rem;
+        font-size:1.5rem;
         text-decoration:none;
         margin-right:7vw;
-        
     }
+
+    #item-navigeren li{
+        float: left;
+        padding: 4vw 4vh;
+        list-style:none;
+        background-color:rgba(255, 0, 0, 0.377);
     
-    #item-navigeren{position: fixed;
-        top: 5vh;
-        left: 10vw; 
-        }
-    #item-navigeren li{float: left;
-        padding: 4vw 4vh;list-style:none;
-        background-color:rgba(255, 0, 0, 0.377);}
+    }
+
     #item-navigeren a{
-        font-size: 0,5rem}
-    #item-navigeren a:active, a:visited, a:link 
-        {color: white;
-        } 
-    #item-navigeren a:hover 
-    {color: darkgreen;}
+        font-size: 0,5rem
+    }
+
+    #item-navigeren a:active, a:visited, a:link {
+        color: white; 
+    } 
+
+    #item-navigeren a:hover{
+        color: darkgreen;
+    }
 
     p {
-            font-size:12px;
-            font-weight:normal;
-            font-style:normal;
-            line-height:18px;
-            color: white;
-           
+        font-weight:normal;
+        font-style:normal;
+        line-height:18px;
+        color: white;
     }
-    li{background-color: red;
     
-}  
+    li{
+        background-color: red;
+    }  
+      
+    .item-logo img{
+        margin: 4% 4% 0 4%;
+        height: 100px;
+        width:200px;
+    }
 
-
-                
-.item-logo img{
-    height: 100px;
-    width:200px;
-    position: absolute;
-    left: 3vw;top: 6vh
-}
-
-
-
-div.gallerij {
-    margin: 15px;
-    border: 3px solid #ccc;
-    float: left;
-    width: 180px;
-    background-color: grey;
-  }
+    div.gallerij {
+        margin: 15px;
+        border: 3px solid #ccc;
+        float: left;
+        width: 180px;
+        background-color: grey;
+    }
   
   div.gallerij img {
     width: 180px;
@@ -98,37 +108,51 @@ div.gallerij {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .menu{
-    position: absolute;
-    top: 50vh;
-    left: 22vw;
-    width: 800px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    .menu{
+        width: 70%;
+        margin-left: 15%;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-.item{
-    padding: 2% 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-bottom: 1px solid gray;
-}
+    .item{
+        grid-gap: 2%;
+        padding: 2% 0;
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        border-bottom: 1px solid gray;
+        margin: 5%;
+    }
 
-.name p{
-    font-size: 20pt;
-}
+    .item-titel{
+        margin: 10% 0;
+    }
 
-.price{
-    text-align: right;
-}
+    .price{
+        margin: 3% 0;
+    }
 
-div.item-social{top:850px;position: relative;}
-div.item-social li{float: right;
-    padding: 1vw 1vh;background-color:rgba(255, 0, 0, 0.425);font-size:0.5rem;list-style:none;}
+    .foodimage img{
+        margin-top: 12%;
+        width: 100%;
+    }
 
-   div.item-social{ margin-right:160px}
-   div.item-social a{ 
-                    font-size:1rem;
-                    text-decoration:none;
-                    margin-right:7vw;  
-                    }
+    div.item-social li{
+        float: right;
+        padding: 1vw 1vh;
+        background-color:rgba(255, 0, 0, 0.425);
+        font-size:0.5rem;
+        list-style:none;
+    }
+
+   div.item-social{
+     margin-right:160px
+    }
+
+    div.item-social a{ 
+        font-size:1rem;
+        text-decoration:none;
+        margin-right:7vw;  
+    }
