@@ -19,35 +19,38 @@
 
    
         
-    .item-hamburger{position: fixed;right: 5vw;top: 8vh}
-    .item-hamburger{line-height: 4px;}
+.item-hamburger{position: absolute;right: 5vw;top: 8vh}
+.item-hamburger{line-height: 4px;}
+
+summary::-webkit-details-marker {
+display: none; }
+
+header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color :red; }
+
+ul{color:white;font-size:24px}
+
+#item-navigeren a{ 
+font-size:1.5rem;
+    text-decoration:none;
+    margin-right:7vw;
     
-    summary::-webkit-details-marker {
-    display: none; }
-    
-    header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color :red; }
-    
-    ul{color:white;font-size:24px}
-    
-    a{ 
-    font-size:1.5rem;
-        text-decoration:none;
-        margin-right:70px;
+}
+
+#item-navigeren{position: fixed;
+    top: 5vh;
+    left: 10vw; 
     }
-    
-    #item-navigeren{position: fixed;
-        top: 10vh;
-        right: 20vw}
-    #item-navigeren li{float: left;
-        padding: 2vw 2vh;}
-    #item-navigeren a{
-        font-size: 0,5rem}
-    #item-navigeren a:active, a:visited, a:link 
-        {color: white;
-    background-color:red} 
-    #item-navigeren a:hover 
-    {color: darkgreen;}
+#item-navigeren li{float: left;
+    padding: 4vw 4vh;list-style:none;
+    background-color:rgba(255, 0, 0, 0.377);}
+#item-navigeren a{
+    font-size: 0,5rem}
+#item-navigeren a:active, a:visited, a:link 
+    {color: white;
+    } 
+#item-navigeren a:hover 
+{color: darkgreen;}
 
     p {
             font-size:18px;
@@ -69,9 +72,17 @@ h1{
     left: 3vw;top: 6vh
 }
 
-body{background-image:url("../../../../Restaurant/menu/images/mexicaans restaurant.jpg")}
+body{background-image:url(../img/mexicaans\ restaurant.jpg)}
 body {background-repeat: no-repeat }
 body {background-size: cover}
 
+div.item-social{top:850px;position: relative;}
+div.item-social li{float: right;
+    padding: 1vw 1vh;background-color:rgba(255, 0, 0, 0.425);font-size:0.5rem;list-style:none;}
 
-
+   div.item-social{ margin-right:160px}
+   div.item-social a{ 
+                    font-size:1rem;
+                    text-decoration:none;
+                    margin-right:7vw;  
+                    }
