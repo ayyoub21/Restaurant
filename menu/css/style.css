@@ -20,57 +20,67 @@
         background-size: contain;
     }
         
-    .item-hamburger{
-        float: right;
-        margin-top: -14%;
-    }
-
-    .item-hamburger p{
-        font-size: 10rem;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-        color :red;
-    }
+    .item-hamburger{position: absolute;right: 5vw;top: 8vh}
+    .item-hamburger{line-height: 4px;}
     
     summary::-webkit-details-marker {
-        display: none; 
-    }
+        display: none; }
+        
+        header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            color :red; }
+        
+        ul{color:white;font-size:24px}
+        
+       #item-navigeren a{ 
+        font-size:1.5rem;
+            text-decoration:none;
+            margin-right:7vw;
+            
+        }
+        
+        #item-navigeren{position: fixed;
+            top: 5vh;
+            left: 10vw; 
+            }
+        #item-navigeren li{float: left;
+            padding: 4vw 4vh;list-style:none;
+            background-color:rgba(255, 0, 0, 0.377);}
+        #item-navigeren a{
+            font-size: 0,5rem}
+        #item-navigeren a:active, a:visited, a:link 
+            {color: white;
+            } 
+        #item-navigeren a:hover 
+        {color: darkgreen;}summary::-webkit-details-marker {
+    display: none; }
     
-    header p{
-        font-size: 10rem;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color :red;
-    }
+    header p{font-size: 10rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color :red; }
     
-    ul{
-        color:white;
-        font-size:24px
-    }
+
+    ul{color:white;font-size:24px}
     
    #item-navigeren a{ 
-        font-size:1.5rem;
+    font-size:1.5rem;
         text-decoration:none;
         margin-right:7vw;
+        
     }
-
-    #item-navigeren li{
-        float: left;
-        padding: 4vw 4vh;
-        list-style:none;
-        background-color:rgba(255, 0, 0, 0.377);
     
-    }
-
+    #item-navigeren{position: fixed;
+        top: 5vh;
+        left: 10vw; 
+        }
+    #item-navigeren li{float: left;
+        padding: 4vw 4vh;list-style:none;
+        background-color:rgba(255, 0, 0, 0.377);}
     #item-navigeren a{
-        font-size: 0,5rem
-    }
-
-    #item-navigeren a:active, a:visited, a:link {
-        color: white; 
-    } 
-
-    #item-navigeren a:hover{
-        color: darkgreen;
-    }
+        font-size: 0,5rem}
+    #item-navigeren a:active, a:visited, a:link 
+        {color: white;
+        } 
+    #item-navigeren a:hover 
+    {color: darkgreen;}
 
     p {
         font-weight:normal;
