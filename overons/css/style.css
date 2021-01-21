@@ -5,18 +5,18 @@
     padding: 0px;
     }
     .item-tekst h1{position: absolute;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     top:17vh;
     left:39vw;
     font-size: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:3vh;
     padding: 2vw ;
-    background-color: rgba(255, 255, 255, 0.507);
+    background-color: rgba(0, 0, 0, 0.507);
     
     }
 
-    body{background-image:url(../images/mexicaans\ restaurant.jpg)}  
+    body{background-image:url(../images/mexicacaanse\ restaurant.jpg)}  
     body {background-repeat: no-repeat }
     body {background-size: cover}
 
@@ -61,7 +61,7 @@
             font-weight:normal;
             font-style:normal;
             line-height:18px;
-            color:black;
+            color:rgb(255, 255, 255);
            
     }
     li{background-color: red;
@@ -88,7 +88,7 @@ div.gallerij {
     border: 3px solid #ccc;
     float: left;
     width: 180px;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.507);
   }
   
   div.gallerij img {
@@ -128,4 +128,4 @@ div.item-social li{float: right;
                     text-decoration:none;
                     margin-right:7vw;  
                     }
-p.text{background-color: rgba(255, 255, 255, 0.5); padding: 4vw;}
+p.text{background-color: rgba(0, 0, 0, 0.5); padding: 4vw;}
